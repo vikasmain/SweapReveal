@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SweapReveal.iml" filepath="$PROJECT_DIR$/SweapReveal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mysweap/mysweap.iml" filepath="$PROJECT_DIR$/mysweap/mysweap.iml" />
+    </modules>
+  </component>
+</project>

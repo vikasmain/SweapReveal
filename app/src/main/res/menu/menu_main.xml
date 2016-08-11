@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+    <menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="RecyclerView" app:showAsAction="never" android:id="@+id/action_recycler_view"/>
+
+    <item android:title="ListView" app:showAsAction="never" android:id="@+id/action_list_view"/>
+
+    <item android:title="GridView" app:showAsAction="never" android:id="@+id/action_grid_view"/>
+    <item android:title="About" app:showAsAction="never" android:id="@+id/about"/>
+
+</menu>

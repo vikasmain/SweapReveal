@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar android:layout_height="?attr/actionBarSize" android:layout_width="match_parent" app:titleTextColor="@android:color/white" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" android:background="?attr/colorPrimary" android:id="@+id/toolbar"/>
+
+    <ListView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/list_view" android:divider="@null"/>
+
+</LinearLayout>

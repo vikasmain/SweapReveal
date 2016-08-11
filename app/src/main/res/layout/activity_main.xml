@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" tools:context=".MainActivity" android:fitsSystemWindows="true" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar android:layout_height="?attr/actionBarSize" android:layout_width="match_parent" app:titleTextColor="@android:color/white" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" android:background="?attr/colorPrimary" android:id="@+id/toolbar"/>
+
+
+    <com.example.dell.mysweap.SwipeRevealLayout android:layout_height="70dp" android:layout_width="match_parent" android:id="@+id/swipe_layout_1" app:dragEdge="right" app:mode="normal" android:layout_margin="10dp">
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="wrap_content">
+
+    <TextView android:layout_height="match_parent" android:layout_width="70dp" android:background="@android:color/darker_gray" android:onClick="moreOnClick" android:text="More" android:textColor="@android:color/white" android:gravity="center"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="70dp" android:background="@android:color/holo_red_dark" android:onClick="deleteOnClick" android:text="Delete" android:textColor="@android:color/white" android:gravity="center"/>
+
+</LinearLayout>
+
+
+    <FrameLayout android:layout_height="match_parent" android:layout_width="match_parent" android:background="@drawable/border_solid_white" android:onClick="layoutOneOnClick">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="My Awesome Layout 1" android:gravity="center" android:layout_gravity="center"/>
+
+</FrameLayout>
+
+</com.example.dell.mysweap.SwipeRevealLayout>
+
+
+    <com.example.dell.mysweap.SwipeRevealLayout android:layout_height="70dp" android:layout_width="match_parent" android:background="@android:color/darker_gray" android:id="@+id/swipe_layout_2" app:dragEdge="left" app:mode="same_level" android:layout_margin="10dp">
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="wrap_content">
+
+    <TextView android:layout_height="match_parent" android:layout_width="70dp" android:background="@android:color/holo_green_dark" android:onClick="archiveOnClick" android:text="Archive" android:textColor="@android:color/white" android:gravity="center"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="70dp" android:background="@android:color/holo_blue_light" android:onClick="helpOnClick" android:text="Help" android:textColor="@android:color/white" android:gravity="center"/>
+
+</LinearLayout>
+
+
+    <FrameLayout android:layout_height="match_parent" android:layout_width="match_parent" android:background="@drawable/border_solid_white" android:onClick="layoutTwoOnClick">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="My Awesome Layout 2" android:gravity="center" android:layout_gravity="center"/>
+
+</FrameLayout>
+
+</com.example.dell.mysweap.SwipeRevealLayout>
+
+
+    <com.example.dell.mysweap.SwipeRevealLayout android:layout_height="70dp" android:layout_width="match_parent" android:background="@android:color/darker_gray" android:id="@+id/swipe_layout_3" app:dragEdge="top" app:mode="same_level" android:layout_margin="10dp">
+
+
+    <FrameLayout android:layout_height="match_parent" android:layout_width="match_parent" android:background="#ffbf00" android:onClick="searchOnClick">
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:src="@drawable/ic_search"/>
+
+</FrameLayout>
+
+
+    <FrameLayout android:layout_height="match_parent" android:layout_width="match_parent" android:background="@drawable/border_solid_white" android:onClick="layoutThreeOnClick">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="My Awesome Layout 3" android:gravity="center" android:layout_gravity="center"/>
+
+</FrameLayout>
+
+</com.example.dell.mysweap.SwipeRevealLayout>
+
+
+    <com.example.dell.mysweap.SwipeRevealLayout android:layout_height="70dp" android:layout_width="match_parent" android:background="@android:color/darker_gray" android:id="@+id/swipe_layout_4" app:dragEdge="bottom" app:mode="same_level" android:layout_margin="10dp">
+
+
+    <FrameLayout android:layout_height="match_parent" android:layout_width="match_parent" android:background="#00264d" android:onClick="starOnClick">
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:src="@drawable/ic_star"/>
+
+</FrameLayout>
+
+
+    <FrameLayout android:layout_height="match_parent" android:layout_width="match_parent" android:background="@drawable/border_solid_white" android:onClick="layoutFourOnClick">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="My Awesome Layout 4" android:gravity="center" android:layout_gravity="center"/>
+
+</FrameLayout>
+
+</com.example.dell.mysweap.SwipeRevealLayout>
+
+</LinearLayout>

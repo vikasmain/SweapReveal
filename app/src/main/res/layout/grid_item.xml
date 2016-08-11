@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <com.example.dell.mysweap.SwipeRevealLayout app:mode="same_level" app:dragEdge="right" android:padding="10dp" android:layout_height="150dp" android:layout_width="150dp" android:id="@+id/swipe_layout" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <FrameLayout android:layout_height="match_parent" android:layout_width="30dp" android:id="@+id/delete_layout" android:background="#ffcc0000">
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:src="@drawable/ic_delete"/>
+
+</FrameLayout>
+
+
+    <FrameLayout android:layout_height="match_parent" android:layout_width="match_parent" android:background="@android:color/holo_blue_light">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/text" android:layout_gravity="center" android:textColor="@android:color/white" android:gravity="center" android:textSize="18sp"/>
+
+</FrameLayout>
+
+</com.example.dell.mysweap.SwipeRevealLayout>

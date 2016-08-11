@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar android:layout_height="?attr/actionBarSize" android:layout_width="match_parent" app:titleTextColor="@android:color/white" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" android:background="?attr/colorPrimary" android:id="@+id/toolbar"/>
+
+    <GridView android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/gridview" android:stretchMode="columnWidth" android:horizontalSpacing="10dp" android:verticalSpacing="10dp" android:numColumns="auto_fit"/>
+
+</LinearLayout>
